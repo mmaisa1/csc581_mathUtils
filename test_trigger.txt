@@ -1,1 +1,1 @@
-Testing auto trigger jenkins 2
+Testing auto trigger jenkins 3
