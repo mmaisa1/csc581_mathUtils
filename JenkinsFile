@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat 'C:/Users/Medha/Downloads/python-3.12.2-amd64.exe -m py_compile MathUtils.py' 
+                bat 'python -m py_compile MathUtils.py' 
                 stash(name: 'compiled-results', includes: '*.py*') 
             }	   	
         }
