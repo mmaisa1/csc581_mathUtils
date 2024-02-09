@@ -9,7 +9,7 @@ pipeline {
         }
 	stage('Test') {
             steps {
-                bat 'py.test --junit-xml test-reports/results.xml test_MathUtils.py'
+                bat 'C:/Users/Medha/AppData/Local/Programs/Python/Python312/python.exe -m pytest --junit-xml test-reports/results.xml test_MathUtils.py'
             }
             post {
                 always {
