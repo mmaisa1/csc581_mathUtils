@@ -1,1 +1,1 @@
-Testing auto trigger jenkins final
+Testing auto trigger jenkins ok"
