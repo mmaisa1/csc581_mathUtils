@@ -1,1 +1,1 @@
-Testing auto trigger jenkins ok"
+Testing auto trigger jenkins poll scm"
